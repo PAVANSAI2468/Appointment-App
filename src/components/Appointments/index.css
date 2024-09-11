@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.submit {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 10px 2px 10px;
+  font-size: 12px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.starred-btn {
+  border: solid 2px #8b5cf6;
+  border-radius: 15px;
+  width: 50px;
+  height: 20px;
+  padding: 2px 5px 1px 5px;
+  background-color: transparent;
+  font-size: 10px;
+  align-self: center;
+}
+.starred-container {
+  display: flex;
+  justify-content: space-between;
+}
+.appointment-img {
+  height: 32vh;
+}
+.page-title {
+  font-size: 19px;
+}
+input {
+  width: 20vw;
+  margin-bottom: 5px;
+}
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+}
+.bg {
+  background: linear-gradient(to bottom, #fbc7d4, #9897f0);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

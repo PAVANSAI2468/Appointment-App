@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date {
+  font-size: 10px;
+  align-self: center;
+}
+li {
+  list-style-type: none;
+  margin: 5px;
+  border: 1px solid #000000;
+  width: 28vw;
+  height: 15vh;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+.star {
+  align-self: flex-start;
+  margin-top: 13px;
+}
